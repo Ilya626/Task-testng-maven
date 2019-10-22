@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SuiteDB" verbose = '1'>
+    <test name = "DBTask1">
+        <classes>
+            <class name="com.ilya.MyTask1" />
+        </classes>
+    </test>
+
+    <test name = "DBTask2">
+        <classes>
+            <class name="com.ilya.MyTask2" />
+        </classes>
+    </test>
+
+</suite>
